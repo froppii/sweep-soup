@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://jeyjdrgivq48"]
+
+[node name="Control" type="Control" unique_id=1580869960]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1293996083]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=1341535215]
+layout_mode = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/VBoxContainer" unique_id=1676816852]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/ScrollContainer" unique_id=1355073862]
+layout_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer" unique_id=769032818]
+layout_mode = 2
+
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/VBoxContainer" unique_id=1287037604]
+layout_mode = 2
+
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/VBoxContainer" unique_id=1649207337]
+layout_mode = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/VBoxContainer" unique_id=1232222017]
