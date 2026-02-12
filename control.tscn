@@ -25,13 +25,13 @@ layout_mode = 2
 [node name="GridContainer" type="GridContainer" parent="MarginContainer/VBoxContainer/ScrollContainer" unique_id=1355073862]
 layout_mode = 2
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer" unique_id=769032818]
+[node name="Potion" type="VBoxContainer" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer" unique_id=769032818]
 layout_mode = 2
 
-[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/VBoxContainer" unique_id=1287037604]
+[node name="TextureRect" type="TextureRect" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/Potion" unique_id=1287037604]
 layout_mode = 2
 
-[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/VBoxContainer" unique_id=1649207337]
+[node name="Button" type="Button" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/Potion" unique_id=1649207337]
 layout_mode = 2
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/VBoxContainer" unique_id=1232222017]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="MarginContainer/VBoxContainer/ScrollContainer/GridContainer/Potion" unique_id=1232222017]
